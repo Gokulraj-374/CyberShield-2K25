@@ -346,11 +346,15 @@ body {
 }
 
 .college-name {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+    font-size: 2.8rem;
+    margin: 0 auto 0.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     animation: fadeInDown 0.8s ease;
     transition: all 0.3s ease;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-align: center;
+    display: block;
 }
 
 .college-name:hover {
@@ -382,18 +386,36 @@ body {
 }
 
 .event-collab {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     color: var(--text-light);
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 0.75rem;
-    animation: fadeInUp 1s ease 0.3s backwards;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    animation: fadeInUp 1s ease 0.35s backwards;
+}
+
+.event-collab-line {
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 0.25rem;
 }
 
 .event-day {
-    font-size: 1rem;
-    color: #cbd5f5;
-    margin: 0.25rem 0 1rem;
-    animation: fadeInUp 1s ease 0.35s backwards;
+    font-size: 1.1rem;
+    color: #f8fafc;
+    margin: 0.5rem 0 1rem;
+    text-align: center;
+    animation: fadeInUp 1s ease 0.3s backwards;
+}
+
+.event-day strong {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    display: block;
+    margin-bottom: 0.3rem;
 }
 
 .event-dates {
@@ -468,7 +490,7 @@ body {
 }
 
 .event-title {
-    font-size: 4rem;
+    font-size: 2.4rem;
     font-weight: bold;
     margin: 1rem 0;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
