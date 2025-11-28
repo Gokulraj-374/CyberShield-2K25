@@ -1055,6 +1055,15 @@ section:nth-child(even) {
     margin: 0.5rem 0;
 }
 
+.organizer-names {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    line-height: 1.4;
+    display: block;
+}
+
 .stars {
     color: #fbbf24;
     margin: 1rem 0;
