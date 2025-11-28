@@ -1709,6 +1709,13 @@ section:nth-child(even) {
     margin: 0.5rem 0;
 }
 
+.developer-subtitle {
+    color: var(--text-gray);
+    font-size: 0.95rem;
+    margin: 0.25rem 0 0.5rem;
+    letter-spacing: 0.5px;
+}
+
 .developer-desc {
     color: var(--text-gray);
     margin-top: 1rem;
