@@ -325,6 +325,26 @@ body {
     max-width: 1000px;
 }
 
+.college-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    animation: fadeInDown 0.8s ease 0.05s backwards;
+}
+
+.college-logo {
+    max-width: 200px;
+    height: auto;
+    filter: drop-shadow(0 4px 15px rgba(255, 255, 255, 0.2));
+    transition: all 0.3s ease;
+}
+
+.college-logo:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 6px 20px rgba(56, 189, 248, 0.4));
+}
+
 .college-name {
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -2004,6 +2024,10 @@ section:nth-child(even) {
         font-size: 2.5rem;
     }
 
+    .college-logo {
+        max-width: 150px;
+    }
+
     .countdown {
         gap: 1rem;
     }
@@ -2037,6 +2061,10 @@ section:nth-child(even) {
 @media (max-width: 480px) {
     .event-title {
         font-size: 2rem;
+    }
+
+    .college-logo {
+        max-width: 120px;
     }
 
     .college-name {
