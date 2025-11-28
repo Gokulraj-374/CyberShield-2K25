@@ -84,7 +84,7 @@ const chatbotResponses = {
     'cyber grid quest': 'Cyber Grid Quest is a cybersecurity-themed crossword puzzle. Solve clues related to security terms, concepts, and technologies to complete the grid.',
     'cyber sherlock': 'Cyber Sherlock is a "Spot the Hack" challenge where you identify security vulnerabilities, spot phishing attempts, and detect malicious activities. Put your detective skills to the test!',
     'cyber meme mania': 'Cyber Meme Mania is a meme creation contest. Create funny and educational cybersecurity-themed memes that spread awareness while making people laugh!',
-    'schedule': 'The event is scheduled for 29th November 2025 (Saturday) from 10:00 AM to 12:00 PM. All events will be conducted simultaneously online during this 2-hour window.',
+    'schedule': 'The event is scheduled for 29th November 2025 (Saturday) with two slots: Slot 1 (Morning Session) from 10:00 AM to 12:45 PM, and Slot 2 (Afternoon Session) from 1:30 PM to 4:15 PM. Participants can choose to participate in either slot. Each slot includes all four events.',
     'registration': 'Registration is completely FREE! No registration fee required. You can participate in multiple events with a single registration.',
     'free': 'Yes! Registration is absolutely FREE. No charges, no fees. Just register and participate!',
     'fee': 'There is NO registration fee. The event is completely free for all participants.',
@@ -92,8 +92,8 @@ const chatbotResponses = {
     'certificate': 'E-certificates will be provided to all participants who complete the events.',
     'prizes': 'This is a participation-focused event. E-certificates will be provided to all participants. No monetary prizes.',
     'online': 'Yes! This is an ONLINE event. You can participate from anywhere with an internet connection.',
-    'date': 'The event is scheduled for 29th November 2025 (Saturday) from 10:00 AM to 12:00 PM.',
-    'time': 'The event runs from 10:00 AM to 12:00 PM on 29th November 2025.',
+    'date': 'The event is scheduled for 29th November 2025 (Saturday) with two slots: Morning Session (10:00 AM - 12:45 PM) and Afternoon Session (1:30 PM - 4:15 PM).',
+    'time': 'The event has two slots: Slot 1 runs from 10:00 AM to 12:45 PM, and Slot 2 runs from 1:30 PM to 4:15 PM on 29th November 2025.',
     'college': 'The event is organized by the Department of Master of Computer Applications (MCA) at K.S.Rangasamy College of Technology, Autonomous, Tiruchengode. The Department of MCA is organizing this online cybersecurity contest.',
     'mca': 'Yes! This event is organized by the Department of Master of Computer Applications (MCA) at K.S.Rangasamy College of Technology. The MCA Department is proud to present this online cybersecurity awareness event.',
     'department': 'The Department of Master of Computer Applications (MCA) is organizing this online cybersecurity contest. The MCA Department invites all students to participate in this free online event.',
@@ -101,7 +101,7 @@ const chatbotResponses = {
     'think before you click': 'That\'s our theme! "Think Before You Click!" promotes cybersecurity awareness and safe online practices. Always verify before clicking links or sharing information online.',
     'hello': 'Hello! Welcome to CYBER SHIELD 2K25! Remember: Think Before You Click! 🛡️ How can I help you today?',
     'hi': 'Hi! Welcome to CYBER SHIELD 2K25! How can I assist you? Ask me about events, registration, or schedule.',
-    'help': 'I can help you with information about the 4 cybersecurity events, schedule (29th Nov, 10 AM-12 PM), FREE registration, E-certificates, and more. What would you like to know?'
+    'help': 'I can help you with information about the 4 cybersecurity events, schedule (two slots: Morning 10 AM-12:45 PM and Afternoon 1:30 PM-4:15 PM), FREE registration, E-certificates, and more. What would you like to know?'
 };
 
 function getChatbotResponse(message) {
