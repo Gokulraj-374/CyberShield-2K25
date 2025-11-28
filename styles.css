@@ -1674,6 +1674,46 @@ section:nth-child(even) {
     line-height: 1.8;
 }
 
+/* Schedule Slot Styles */
+.schedule-slot {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.6) 100%);
+    border-radius: 20px;
+    border: 1px solid rgba(14, 165, 233, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.schedule-slot:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.slot-title {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: var(--gradient-cyber);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.slot-time {
+    font-size: 1.3rem;
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    background: rgba(250, 204, 21, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(250, 204, 21, 0.3);
+}
+
 /* Developer Section */
 .developer {
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
@@ -2086,6 +2126,19 @@ section:nth-child(even) {
 
     .schedule-time {
         min-width: auto;
+    }
+
+    .schedule-slot {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .slot-title {
+        font-size: 1.5rem;
+    }
+
+    .slot-time {
+        font-size: 1.1rem;
     }
 }
 
