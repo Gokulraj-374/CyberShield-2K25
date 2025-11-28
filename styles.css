@@ -407,7 +407,7 @@ body {
 .event-day {
     font-size: 1.1rem;
     color: #f8fafc;
-    margin: 0.5rem 0 1rem;
+    margin: 0.5rem 0 2rem;
     text-align: center;
     animation: fadeInUp 1s ease 0.3s backwards;
 }
@@ -472,9 +472,9 @@ body {
 }
 
 .event-slogan {
-    font-size: 1.8rem;
+    font-size: clamp(0.9rem, 2.5vw, 1.2rem);
     font-weight: bold;
-    margin: 1.5rem 0;
+    margin: 0 0 0.75rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     color: #ffd700;
     animation: fadeInUp 1s ease 0.5s backwards, glow 2s ease-in-out infinite alternate 1.5s;
@@ -494,7 +494,7 @@ body {
 .event-title {
     font-size: 2.4rem;
     font-weight: bold;
-    margin: 1rem 0;
+    margin: 0.5rem 0 0.3rem;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     animation: fadeInUp 1s ease;
     display: inline-block;
