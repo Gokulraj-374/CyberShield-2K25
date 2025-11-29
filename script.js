@@ -162,6 +162,18 @@ document.querySelectorAll('.register-button, .cta-button, .btn-register').forEac
     });
 });
 
+// Hero start button toggle for quick links
+const startLinkToggle = document.getElementById('startLinkToggle');
+const startLinksPanel = document.getElementById('startLinksPanel');
+
+if (startLinkToggle && startLinksPanel) {
+    startLinkToggle.addEventListener('click', () => {
+        const isOpen = startLinksPanel.classList.toggle('active');
+        startLinksPanel.setAttribute('aria-hidden', String(!isOpen));
+        startLinkToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+}
+
 // Rules Button Actions
 document.querySelectorAll('.btn-rules').forEach(btn => {
     btn.addEventListener('click', () => {
